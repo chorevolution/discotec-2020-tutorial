@@ -1,4 +1,4 @@
-# DisCoTec 2020 Tutorial
+# [DisCoTec 2020 Tutorial] (https://www.discotec.org/2020/tutorials#chorevolution-idre-an-integrated-development-and-run-time-environment-for-automatically-realizing-and-executing-distributed-applications)
 
 [DisCoTec 2020 Tutorial](https://www.discotec.org/2020/tutorials#chorevolution-idre-an-integrated-development-and-run-time-environment-for-automatically-realizing-and-executing-distributed-applications)
 
