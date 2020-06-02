@@ -7,8 +7,5 @@ Since late 70’s, the development of concurrent and distributed systems has bee
 **Instructions for tutorial's attendees:**
 
 **1.** Clone or download this repository
-```
-git clone https://github.com/chorevolution/discotec-2020-tutorial.git
-```
 
 **2.** Download the CHOReVOLUTION IDRE components and the Apache Tomcat bundles from the [latest release](https://github.com/chorevolution/CHOReVOLUTION-IDRE/releases)
