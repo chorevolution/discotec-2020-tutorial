@@ -24,7 +24,8 @@ public class RegistryOfficeServiceImpl implements RegistryOfficeService {
     public FarmRegistrationRequest createFarmRegistrationRequest(ChoreographyInstanceMessages choreographyInstanceMessages, String choreographyTaskName, String receiverParticipantName) {
     	
     	FarmRegistrationRequest result = new FarmRegistrationRequest();
-        FarmOpeningNotification farmOpeningNotification = (FarmOpeningNotification) choreographyInstanceMessages.getMessageSentFromParticipant("farmOpeningNotification","Local Healthcare Company","Farm Opening"); 	result.setFarm(farmOpeningNotification.getFarmOpeningRequestForm().getFarm());
+        FarmOpeningNotification farmOpeningNotification = (FarmOpeningNotification) choreographyInstanceMessages.getMessageSentFromParticipant("farmOpeningNotification","Local Healthcare Company","Farm Opening"); 	
+        result.setFarm(farmOpeningNotification.getFarmOpeningRequestForm().getFarm());
     	result.setOwner(farmOpeningNotification.getFarmOpeningRequestForm().getOwner());
     	result.setSiteInspectionDetails(farmOpeningNotification.getSiteInspectionDetails());
     	return result;
